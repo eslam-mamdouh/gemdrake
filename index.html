@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GemDrake – Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the GemDrake mobile game." />
+  <style>
+    :root {
+      --bg: #0b0f17;
+      --card: #121826;
+      --text: #e6edf6;
+      --muted: #9fb0c7;
+      --accent: #6aa6ff;
+      --accent-2: #7ef0c1;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: radial-gradient(1200px 800px at 20% -10%, #1a2440, var(--bg));
+      line-height: 1.6;
+    }
+    .container { max-width: 960px; margin: 0 auto; padding: 24px; }
+    header { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; }
+    .brand { display:flex; align-items:center; gap:12px; }
+    .brand .logo {
+      width: 44px; height: 44px; border-radius: 12px; background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      display:grid; place-items:center; font-weight:700; color:#0b0f17;
+      box-shadow: 0 10px 30px rgba(106,166,255,.35);
+    }
+    .tags { display:flex; gap:8px; flex-wrap:wrap; }
+    .tag { padding: 6px 10px; border-radius: 999px; background: #1a2235; color: var(--muted); font-size: 12px; border:1px solid #243052; }.card { background: var(--card); border:1px solid #1f2942; border-radius: 16px; padding: 24px; margin-top: 16px; box-shadow: 0 8px 24px rgba(0,0,0,.25); }
+h1, h2, h3 { line-height:1.25; margin: 0 0 12px; }
+h1 { font-size: clamp(26px, 3.5vw, 36px); letter-spacing: .2px; }
+h2 { font-size: clamp(18px, 2.2vw, 22px); margin-top: 20px; }
+p { margin: 0 0 12px; color: var(--text); }
+ul { margin: 8px 0 12px 20px; }
+
+.notice { background: #0f1628; border:1px dashed #2c3a63; color: var(--muted); padding: 12px; border-radius: 12px; }
+
+.lang-switch { display:flex; gap:8px; }
+.lang-switch button {
+  padding: 8px 12px; border-radius: 10px; border:1px solid #28406f; background:#13203b; color: var(--text);
+  cursor:pointer; transition: .2s transform, .2s background;
+}
+.lang-switch button.active { background:#183059; box-shadow: inset 0 0 0 1px #2b4b86; }
+.lang-switch button:hover { transform: translateY(-1px); }
+
+.lang { display:none; }
+.lang.active { display:block; }
+
+footer { color: var(--muted); margin: 24px 0; font-size: 14px; text-align:center; }
+a { color: var(--accent); }
+hr { border: none; height:1px; background: linear-gradient(90deg, transparent, #2b3b60, transparent); margin: 18px 0; }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">GD</div>
+        <div>
+          <h1>GemDrake – Privacy Policy</h1>
+          <div class="tags">
+            <span class="tag">Last updated: <time id="lastUpdated">August 22, 2025</time></span>
+            <span class="tag">Version 1.0</span>
+          </div>
+        </div>
+      </div>
+      <div class="lang-switch" role="tablist" aria-label="Language switcher">
+        <button id="btn-en" class="active" aria-selected="true" role="tab" aria-controls="content-en">English</button>
+        <button id="btn-ar" role="tab" aria-selected="false" aria-controls="content-ar">العربية</button>
+      </div>
+    </header><section class="card lang active" id="content-en" lang="en">
+  <p class="notice"><strong>Summary:</strong> GemDrake stores only local game data on your device (high score and basic settings). No personal data is collected or shared.</p>
+
+  <h2>1. Introduction</h2>
+  <p>GemDrake ("we", "our", "us") respects your privacy and is committed to protecting it. This Privacy Policy explains what information we store and how it is used when you play our game.</p>
+
+  <h2>2. Data We Store</h2>
+  <ul>
+    <li><strong>Local game data:</strong> high score and basic settings (e.g., sound/music preferences) saved locally on your device using <code>shared_preferences</code>.</li>
+  </ul>
+  <p>We do <strong>not</strong> collect names, emails, contact details, or precise location. We do <strong>not</strong> transfer your data to any server.</p>
+
+  <h2>3. How We Use Data</h2>
+  <ul>
+    <li>Remember your high score between sessions.</li>
+    <li>Apply your preferred settings (sound/music, language).</li>
+  </ul>
+
+  <h2>4. Third‑Party Services</h2>
+  <p>In the current version, GemDrake does not include analytics, advertising SDKs, or third‑party tracking. If a future update introduces optional analytics or ads, we will update this policy and provide a notice within the app.</p>
+
+  <h2>5. Children’s Privacy</h2>
+  <p>GemDrake is suitable for all ages and does not knowingly collect personal information from children under 13. Parents can remove all locally stored data by uninstalling the app.</p>
+
+  <h2>6. Data Security</h2>
+  <p>All game data is stored locally on your device. Keep your device secure to protect this data. Uninstalling the app will delete the stored data.</p>
+
+  <h2>7. Your Choices & Rights</h2>
+  <ul>
+    <li><strong>Reset data:</strong> Use the in‑app option to reset high score, or uninstall the app to remove all local data.</li>
+    <li><strong>Mute settings:</strong> Toggle music and sound effects in Settings.</li>
+  </ul>
+
+  <h2>8. International Users</h2>
+  <p>No data is transmitted across borders because we do not send your data to any server.</p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this policy from time to time. The latest version will always be available at our privacy URL.</p>
+
+  <h2>10. Contact Us</h2>
+  <p>Questions or requests? Contact us at <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>. A full policy page is also hosted at <a href="https://yourdomain.com/privacy" target="_blank" rel="noopener">yourdomain.com/privacy</a>.</p>
+</section>
+
+<section class="card lang" id="content-ar" lang="ar" dir="rtl">
+  <p class="notice"><strong>ملخص:</strong> يخزّن GemDrake بيانات اللعبة محليًا على جهازك فقط (أعلى نتيجة وإعدادات أساسية). لا نقوم بجمع أو مشاركة أي بيانات شخصية.</p>
+
+  <h2>1. المقدّمة</h2>
+  <p>تحترم GemDrake ("نحن") خصوصيتك وتلتزم بحمايتها. توضّح هذه السياسة نوع المعلومات التي نخزّنها وكيفية استخدامها عند لعب لعبتنا.</p>
+
+  <h2>2. البيانات التي نخزّنها</h2>
+  <ul>
+    <li><strong>بيانات اللعبة المحلية:</strong> أعلى نتيجة وإعدادات أساسية (مثل تفضيلات الصوت/الموسيقى) ويتم حفظها محليًا على جهازك باستخدام <code>shared_preferences</code>.</li>
+  </ul>
+  <p>لا نقوم <strong>بجمع</strong> الاسم أو البريد الإلكتروني أو بيانات الاتصال أو الموقع الدقيق، ولا <strong>ننقل</strong> بياناتك إلى أي خادم.</p>
+
+  <h2>3. كيفية استخدام البيانات</h2>
+  <ul>
+    <li>تذكّر أعلى نتيجة بين الجلسات.</li>
+    <li>تطبيق تفضيلاتك (الصوت/الموسيقى واللغة).</li>
+  </ul>
+
+  <h2>4. خدمات الأطراف الثالثة</h2>
+  <p>لا تتضمن النسخة الحالية من GemDrake أي تحليلات أو إعلانات أو أدوات تتبّع تابعة لجهات خارجية. إذا تضمّنت الإصدارات المستقبلية تحليلات أو إعلانات اختيارية، فسنحدّث هذه السياسة ونقدّم إشعارًا داخل التطبيق.</p>
+
+  <h2>5. خصوصية الأطفال</h2>
+  <p>اللعبة مناسبة لجميع الأعمار، ولا نجمع عمدًا بيانات شخصية من الأطفال دون 13 عامًا. يمكن للوالدين إزالة جميع البيانات المحلية بإلغاء تثبيت التطبيق.</p>
+
+  <h2>6. أمن البيانات</h2>
+  <p>تُخزَّن جميع بيانات اللعبة محليًا على جهازك. حافظ على أمان جهازك لحماية هذه البيانات. سيؤدي إلغاء تثبيت التطبيق إلى حذف البيانات المخزَّنة.</p>
+
+  <h2>7. اختياراتك وحقوقك</h2>
+  <ul>
+    <li><strong>إعادة التعيين:</strong> استخدم خيار التطبيق لإعادة تعيين أعلى نتيجة، أو أزل تثبيت التطبيق لحذف جميع البيانات المحلية.</li>
+    <li><strong>إعدادات الصوت:</strong> بدّل تشغيل/كتم الموسيقى والمؤثرات الصوتية من شاشة الإعدادات.</li>
+  </ul>
+
+  <h2>8. المستخدمون الدوليون</h2>
+  <p>لا يتم نقل البيانات عبر الحدود لأننا لا نرسل بياناتك إلى أي خادم.</p>
+
+  <h2>9. التغييرات على هذه السياسة</h2>
+  <p>قد نقوم بتحديث هذه السياسة من وقت لآخر. ستجد دائمًا أحدث نسخة على رابط سياسة الخصوصية الخاص بنا.</p>
+
+  <h2>10. الاتصال بنا</h2>
+  <p>للاستفسارات أو الطلبات، راسلنا على <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>. كما تتوفر نسخة كاملة على <a href="https://yourdomain.com/privacy" target="_blank" rel="noopener">yourdomain.com/privacy</a>.</p>
+</section>
+
+<footer>
+  <p>© <span id="year"></span> GemDrake. All rights reserved.</p>
+</footer>
+
+  </div>  <script>
+    // Simple language toggle
+    const btnEn = document.getElementById('btn-en');
+    const btnAr = document.getElementById('btn-ar');
+    const en = document.getElementById('content-en');
+    const ar = document.getElementById('content-ar');
+
+    function activate(lang) {
+      const isAr = lang === 'ar';
+      en.classList.toggle('active', !isAr);
+      ar.classList.toggle('active', isAr);
+      btnEn.classList.toggle('active', !isAr);
+      btnAr.classList.toggle('active', isAr);
+      document.documentElement.setAttribute('lang', isAr ? 'ar' : 'en');
+      document.documentElement.setAttribute('dir', isAr ? 'rtl' : 'ltr');
+    }
+
+    btnEn.addEventListener('click', () => activate('en'));
+    btnAr.addEventListener('click', () => activate('ar'));
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
